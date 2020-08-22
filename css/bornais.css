@@ -5,7 +5,7 @@
     margin:auto;
 }
 
-
+/* FLEX BOX RESPONSIVE */
 .frow{
     display:flex;
     flex-direction: column;
@@ -22,6 +22,43 @@
     .f5{flex:5;}
     .f6{flex:6;}
 }
+
+/* CSS GRID RESPONSIVE */
+.bgrid{
+    display: grid;
+}
+
+@media only screen and (min-width: 768px){
+    .bgrid1{grid-template-columns: repeat(1, 1fr);}
+    .bgrid2{grid-template-columns: repeat(2, 1fr);}
+    .bgrid3{grid-template-columns: repeat(3, 1fr);}
+    .bgrid4{grid-template-columns: repeat(4, 1fr);}
+    .bgrid5{grid-template-columns: repeat(5, 1fr);}
+    .bgrid6{grid-template-columns: repeat(6, 1fr);}
+    .bgrid7{grid-template-columns: repeat(7, 1fr);}
+    .bgrid8{grid-template-columns: repeat(8, 1fr);}
+    .bgrid9{grid-template-columns: repeat(9, 1fr);}
+    .bgrid10{grid-template-columns: repeat(10, 1fr);}
+    .bgrid11{grid-template-columns: repeat(11, 1fr);}
+    .bgrid12{grid-template-columns: repeat(12, 1fr);}
+
+    .w1{grid-column: span 1;}
+    .w2{grid-column: span 2;}
+    .w3{grid-column: span 3;}
+    .w4{grid-column: span 4;}
+    .w5{grid-column: span 5;}
+    .w6{grid-column: span 6;}
+    
+    .h1{grid-row: span 1;}
+    .h2{grid-row: span 2;}
+    .h3{grid-row: span 3;}
+    .h4{grid-row: span 4;}
+    .h5{grid-row: span 5;}
+    .h6{grid-row: span 6;}
+}
+
+
+
 
 /* For mobile phones: */
 [class*="col-"] {
@@ -43,3 +80,4 @@
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 }
+
