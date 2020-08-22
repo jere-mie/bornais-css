@@ -6,22 +6,71 @@
 }
 
 /* FLEX BOX RESPONSIVE */
-.frow{
+.frow-lg{
     display:flex;
     flex-direction: column;
 }
+.frow-md{
+    display:flex;
+    flex-direction: column;
+}
+.frow-sm{
+    display:flex;
+    flex-direction: column;
+}
+.frow-xs{
+    display:flex;
+    flex-direction: row;
+}
 
-@media only screen and (min-width: 768px){
-    .frow{
+/* f-lg */
+@media only screen and (min-width: 992px){
+    .frow-lg{
         flex-direction: row;
     }
-    .f1{flex:1;}
-    .f2{flex:2;}
-    .f3{flex:3;}
-    .f4{flex:4;}
-    .f5{flex:5;}
-    .f6{flex:6;}
+    .f-lg-1{flex:1;}
+    .f-lg-2{flex:2;}
+    .f-lg-3{flex:3;}
+    .f-lg-4{flex:4;}
+    .f-lg-5{flex:5;}
+    .f-lg-6{flex:6;}
 }
+
+/* f-md */
+@media only screen and (min-width: 768px){
+    .frow-md{
+        flex-direction: row;
+    }
+    .f-md-1{flex:1;}
+    .f-md-2{flex:2;}
+    .f-md-3{flex:3;}
+    .f-md-4{flex:4;}
+    .f-md-5{flex:5;}
+    .f-md-6{flex:6;}
+}
+
+/* f-sm */
+@media only screen and (min-width: 576px){
+    .frow-sm{
+        flex-direction: row;
+    }
+    .f-sm-1{flex:1;}
+    .f-sm-2{flex:2;}
+    .f-sm-3{flex:3;}
+    .f-sm-4{flex:4;}
+    .f-sm-5{flex:5;}
+    .f-sm-6{flex:6;}
+}
+
+/* f-xs is independent of screen width */
+.f-xs-1{flex:1;}
+.f-xs-2{flex:2;}
+.f-xs-3{flex:3;}
+.f-xs-4{flex:4;}
+.f-xs-5{flex:5;}
+.f-xs-6{flex:6;}
+
+
 
 /* CSS GRID RESPONSIVE */
 .bgrid{
