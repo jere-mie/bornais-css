@@ -234,3 +234,73 @@
     .h-lg-11{grid-row: span 11;}
     .h-lg-12{grid-row: span 12;}    
 }
+
+/* 
+
+COLOURS
+
+*/
+.bg-sky{background-color: #5DADE2;}
+.bg-azure{background-color: #0080FF;}
+.bg-steel{background-color: #707B7C;}
+.bg-cash{background-color: #2ECC71;}
+.bg-ruby{background-color: #C0392B;}
+.bg-amber{background-color: #F4D03F;}
+.bg-saphire{background-color: #1ABC9C;}
+.bg-cloud{background-color: #F2F3F4;}
+.bg-shadow{background-color: #212F3D;}
+.bg-white{background-color: #ffffff;}
+.bg-black{background-color: #000000;}
+
+.text-sky{color: #5DADE2;}
+.text-azure{color: #0080FF;}
+.text-steel{color: #707B7C;}
+.text-cash{color: #2ECC71;}
+.text-ruby{color: #C0392B;}
+.text-amber{color: #F4D03F;}
+.text-saphire{color: #1ABC9C;}
+.text-cloud{color: #F2F3F4;}
+.text-shadow{color: #212F3D;}
+.text-white{color: #ffffff;}
+.text-black{color: #000000;}
+
+.bbtn{
+  padding: 10px 20px;
+  border-radius: 4px;
+  border-color: rgba(0,0,0,0);
+  border-width: 1px; 
+}
+
+/* sky */
+.bbtn-sky{
+  color: white;
+  background-color:#5DADE2;
+}
+.bbtn-outline-sky{
+  color: #5DADE2;
+  border-color: #5DADE2;
+  background-color:white;
+}
+.bbtn-outline-sky:hover{
+  color: white;
+  background-color:#5DADE2;
+  border-color: rgba(0,0,0,0);
+  transition-duration: 200ms;
+}
+
+/* azure */
+.bbtn-azure{
+  color: white;
+  background-color:#0080FF;
+}
+.bbtn-outline-azure{
+  color: #0080FF;
+  border-color: #0080FF;
+  background-color:white;
+}
+.bbtn-outline-azure:hover{
+  color: white;
+  background-color:#0080FF;
+  border-color: rgba(0,0,0,0);
+  transition-duration: 200ms;
+}
