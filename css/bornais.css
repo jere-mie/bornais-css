@@ -415,7 +415,7 @@ COLOURS
 .bbtn-outline-cloud {
     color: #F2F3F4;
     border-color: #F2F3F4;
-    background-color: black;
+    background-color: white;
 }
 
 .bbtn-outline-cloud:hover {
@@ -434,7 +434,7 @@ COLOURS
 .bbtn-outline-shadow {
     color: #212F3D;
     border-color: #212F3D;
-    background-color: white;
+    background-color: rgb(199, 193, 193);
 }
 
 .bbtn-outline-shadow:hover {
