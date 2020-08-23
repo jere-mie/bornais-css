@@ -434,7 +434,7 @@ COLOURS
 .bbtn-outline-shadow {
     color: #212F3D;
     border-color: #212F3D;
-    background-color: rgb(199, 193, 193);
+    background-color: white;
 }
 
 .bbtn-outline-shadow:hover {
