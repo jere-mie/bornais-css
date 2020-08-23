@@ -1,4 +1,4 @@
-# bornais-css
+# Bornais.css
 A CSS framework made to be more versatile than Bootstrap, but semantically similar.<br>
 Based on Flex Box and CSS Grid<br>
 To use Bornais.css, you can:
@@ -81,3 +81,7 @@ In the above example:
 * Box 1 has a width of 2
 * Box 3 has a height of 3
 * Box 5 has a width of 3 and a height of 4
+
+## Colours
+The following colours are available in Bornais.css
+![Image of Colour Palette](static/colors.png)
