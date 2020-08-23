@@ -272,35 +272,210 @@ COLOURS
 }
 
 /* sky */
-.bbtn-sky{
-  color: white;
-  background-color:#5DADE2;
+.bbtn-sky {
+    color: white;
+    background-color: #5DADE2;
 }
-.bbtn-outline-sky{
-  color: #5DADE2;
-  border-color: #5DADE2;
-  background-color:white;
+
+.bbtn-outline-sky {
+    color: #5DADE2;
+    border-color: #5DADE2;
+    background-color: white;
 }
-.bbtn-outline-sky:hover{
-  color: white;
-  background-color:#5DADE2;
-  border-color: rgba(0,0,0,0);
-  transition-duration: 200ms;
+
+.bbtn-outline-sky:hover {
+    color: white;
+    background-color: #5DADE2;
+    border-color: rgba(0, 0, 0, 0);
+    transition-duration: 200ms;
 }
 
 /* azure */
-.bbtn-azure{
-  color: white;
-  background-color:#0080FF;
+.bbtn-azure {
+    color: white;
+    background-color: #0080FF;
 }
-.bbtn-outline-azure{
-  color: #0080FF;
-  border-color: #0080FF;
-  background-color:white;
+
+.bbtn-outline-azure {
+    color: #0080FF;
+    border-color: #0080FF;
+    background-color: white;
 }
-.bbtn-outline-azure:hover{
-  color: white;
-  background-color:#0080FF;
-  border-color: rgba(0,0,0,0);
-  transition-duration: 200ms;
+
+.bbtn-outline-azure:hover {
+    color: white;
+    background-color: #0080FF;
+    border-color: rgba(0, 0, 0, 0);
+    transition-duration: 200ms;
+}
+
+/* steel */
+.bbtn-steel {
+    color: white;
+    background-color: #707B7C;
+}
+
+.bbtn-outline-steel {
+    color: #707B7C;
+    border-color: #707B7C;
+    background-color: white;
+}
+
+.bbtn-outline-steel:hover {
+    color: white;
+    background-color: #707B7C;
+    border-color: rgba(0, 0, 0, 0);
+    transition-duration: 200ms;
+}
+
+/* cash */
+.bbtn-cash {
+    color: white;
+    background-color: #2ECC71;
+}
+
+.bbtn-outline-cash {
+    color: #2ECC71;
+    border-color: #2ECC71;
+    background-color: white;
+}
+
+.bbtn-outline-cash:hover {
+    color: white;
+    background-color: #2ECC71;
+    border-color: rgba(0, 0, 0, 0);
+    transition-duration: 200ms;
+}
+
+/* ruby */
+.bbtn-ruby {
+    color: white;
+    background-color: #C0392B;
+}
+
+.bbtn-outline-ruby {
+    color: #C0392B;
+    border-color: #C0392B;
+    background-color: white;
+}
+
+.bbtn-outline-ruby:hover {
+    color: white;
+    background-color: #C0392B;
+    border-color: rgba(0, 0, 0, 0);
+    transition-duration: 200ms;
+}
+
+/* amber */
+.bbtn-amber {
+    color: white;
+    background-color: #F4D03F;
+}
+
+.bbtn-outline-amber {
+    color: #F4D03F;
+    border-color: #F4D03F;
+    background-color: white;
+}
+
+.bbtn-outline-amber:hover {
+    color: white;
+    background-color: #F4D03F;
+    border-color: rgba(0, 0, 0, 0);
+    transition-duration: 200ms;
+}
+
+/* saphire */
+.bbtn-saphire {
+    color: white;
+    background-color: #1ABC9C;
+}
+
+.bbtn-outline-saphire {
+    color: #1ABC9C;
+    border-color: #1ABC9C;
+    background-color: white;
+}
+
+.bbtn-outline-saphire:hover {
+    color: white;
+    background-color: #1ABC9C;
+    border-color: rgba(0, 0, 0, 0);
+    transition-duration: 200ms;
+}
+
+/* cloud */
+.bbtn-cloud {
+    color: black;
+    background-color: #F2F3F4;
+}
+
+.bbtn-outline-cloud {
+    color: #F2F3F4;
+    border-color: #F2F3F4;
+    background-color: black;
+}
+
+.bbtn-outline-cloud:hover {
+    color: black;
+    background-color: #F2F3F4;
+    border-color: rgba(0, 0, 0, 0);
+    transition-duration: 200ms;
+}
+
+/* shadow */
+.bbtn-shadow {
+    color: white;
+    background-color: #212F3D;
+}
+
+.bbtn-outline-shadow {
+    color: #212F3D;
+    border-color: #212F3D;
+    background-color: white;
+}
+
+.bbtn-outline-shadow:hover {
+    color: white;
+    background-color: #212F3D;
+    border-color: rgba(0, 0, 0, 0);
+    transition-duration: 200ms;
+}
+
+/* white */
+.bbtn-white {
+    color: black;
+    background-color: white;
+}
+
+.bbtn-outline-white {
+    color: white;
+    border-color: white;
+    background-color: black;
+}
+
+.bbtn-outline-white:hover {
+    color: black;
+    background-color: white;
+    border-color: rgba(0, 0, 0, 0);
+    transition-duration: 200ms;
+}
+
+/* black */
+.bbtn-black {
+    color: white;
+    background-color: black;
+}
+
+.bbtn-outline-black {
+    color: black;
+    border-color: black;
+    background-color: white;
+}
+
+.bbtn-outline-black:hover {
+    color: white;
+    background-color: black;
+    border-color: rgba(0, 0, 0, 0);
+    transition-duration: 200ms;
 }
