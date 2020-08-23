@@ -1,6 +1,11 @@
 # bornais-css
-A CSS framework made to be more versatile than Bootstrap, but semantically similar<br>
-Based on Flex Box and CSS Grid
+A CSS framework made to be more versatile than Bootstrap, but semantically similar.<br>
+Based on Flex Box and CSS Grid<br>
+To use Bornais.css, you can:
+* Download the bornais.css file found in this repo.
+* Use the CDN https://css.bornais.ca/css/bornais.css
+    * `<link rel="stylesheet" href="https://css.bornais.ca/css/bornais.css"></link>`
+    * Note that the CDN automatically updates to the newest version, which may result in changes not fore-warned
 
 ## The Grid System
 Bornais.css supports two different ways to align content:
