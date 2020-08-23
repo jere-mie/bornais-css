@@ -4,14 +4,14 @@ Based on Flex Box and CSS Grid
 
 ## The Grid System
 Bornais.css supports two different ways to align content:
-    * The frow class, for single-row content (based on flex box)
-    * The bgrid class, for multi-row content (based on CSS Grid)
+* The frow class, for single-row content (based on flex box)
+* The bgrid class, for multi-row content (based on CSS Grid)
 
 **Note: Whenever you see `screen-size` in a class name, you may use any of the following:**
-    * lg: works for devices with screen width 992px and above
-    * md: works for devices with screen width 768px and above
-    * sm: works for devices with screen width 576px and above
-    * xs: works for devices with any screen width
+* lg: works for devices with screen width 992px and above
+* md: works for devices with screen width 768px and above
+* sm: works for devices with screen width 576px and above
+* xs: works for devices with any screen width
 
 ### frow (Single Line Content)
 To align single line content using frow, you must create a div with class "frow-`screen-size`", like so:
@@ -73,6 +73,6 @@ For example:
 </div> 
 ```
 In the above example:
-    * Box 1 has a width of 2
-    * Box 3 has a height of 3
-    * Box 5 has a width of 3 and a height of 4
+* Box 1 has a width of 2
+* Box 3 has a height of 3
+* Box 5 has a width of 3 and a height of 4
