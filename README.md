@@ -1,5 +1,5 @@
 # bornais-css
-A CSS framework made to be more versatile than Bootstrap, but semantically similar
+A CSS framework made to be more versatile than Bootstrap, but semantically similar<br>
 Based on Flex Box and CSS Grid
 
 ## The Grid System
@@ -21,8 +21,8 @@ To align single line content using frow, you must create a div with class "frow-
 </div> 
 ```
 
-Next, you must place children inside the div, giving them the f-`screen-size`-`num` class
-Note that `num` is any number from 1-6, whereby it describes the relative ratio of the width of the element to the other elements.
+Next, you must place children inside the div, giving them the f-`screen-size`-`num` class<br>
+Note that `num` is any number from 1-6, whereby it describes the relative ratio of the width of the element to the other elements.<br>
 For example:
 ```html
 <div class="frow-md">
@@ -34,7 +34,7 @@ For example:
 In the above example, the ratio of widths between the boxes is 1:2:1, where Box 2 is twice the width as box 1.
 
 ### bgrid (Single Line Content)
-To align multi line content using bgrid, you must create a div with class "bgrid", as well as "bgrid-`screen-size`-`num`", where `num` refers to the number of columns in the grid (1-12 are acceptable).
+To align multi line content using bgrid, you must create a div with class "bgrid", as well as "bgrid-`screen-size`-`num`", where `num` refers to the number of columns in the grid (1-12 are acceptable).<br>
 For example, the following code creates a grid with 3 columns:
 ```html
 <div class="bgrid bgrid-md-3">
@@ -42,8 +42,8 @@ For example, the following code creates a grid with 3 columns:
 </div> 
 ```
 
-Next, you must place children inside the div.
-If the children will all be the same width, then no further action is necessary.
+Next, you must place children inside the div.<br>
+If the children will all be the same width, then no further action is necessary.<br>
 For example:
 ```html
 <div class="bgrid bgrid-md-3">
@@ -55,12 +55,12 @@ For example:
     <div>Box 6</div>
 </div> 
 ```
-In the above example, a grid with three columns is created, where three elements fit on each row of the grid.
-This results in a 2 (height) by 3 (width) grid of boxes, all evenly spaced.
+In the above example, a grid with three columns is created, where three elements fit on each row of the grid.<br>
+This results in a 2 (height) by 3 (width) grid of boxes, all evenly spaced.<br><br>
 
-Now, it is also possible to give children additional classes to allow them to span more than one row/column.
-Using the "w-`screen-size`-`num`" and "h-`screen-size`-`num`" classes, you can make an element span `num` columns, or `num` rows (or both!)
-Note: `num` can be any number from 1-12 in this case
+Now, it is also possible to give children additional classes to allow them to span more than one row/column.<br>
+Using the "w-`screen-size`-`num`" and "h-`screen-size`-`num`" classes, you can make an element span `num` columns, or `num` rows (or both! <br>
+Note: `num` can be any number from 1-12 in this case<br>
 For example:
 ```html
 <div class="bgrid bgrid-md-3">
