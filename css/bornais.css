@@ -274,6 +274,13 @@ COLOURS
   border-color: rgba(0,0,0,0);
   border-width: 1px;
   text-decoration: none; 
+  font-size: 16px;
+}
+bbtn-lg{
+    font-size: 22px;
+}
+bbtn-sm{
+    font-size: 10px;
 }
 
 /* sky */
