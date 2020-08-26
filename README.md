@@ -38,7 +38,7 @@ For example:
 ```
 In the above example, the ratio of widths between the boxes is 1:2:1, where Box 2 is twice the width as box 1.
 
-### bgrid (Single Line Content)
+### bgrid (Multi Line Content)
 To align multi line content using bgrid, you must create a div with class "bgrid", as well as "bgrid-`screen-size`-`num`", where `num` refers to the number of columns in the grid (1-12 are acceptable).<br>
 For example, the following code creates a grid with 3 columns:
 ```html
