@@ -1,0 +1,54 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.box-green{
+    background-color: #0de5a8;
+    border-radius: 33px;
+    padding: 75px;
+    border: 1px solid white;
+}
+
+.box-blue{
+    background-color: #14c3a2;
+    border-radius: 33px;
+    padding: 75px;
+    border: 1px solid white;
+}
+
+.box-yellow{
+    background-color: #b8fd99;
+    border-radius: 33px;
+    padding: 75px;
+    border: 1px solid white;
+}
+
+.code {
+    font-family: Consolas,"courier new";
+    color: crimson;
+    background-color: #f1f1f1;
+    padding: 2px;
+    font-size: 105%;
+}
+
+#cdn{
+    width: 100%;
+    padding: 12px 20px;
+    font-size: larger;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 22px;
+}
+
+.footer{
+    margin-top: 33px;
+    background-color: rgb(247, 247, 247);
+    padding: 5px 12px;
+}
+
+.footer p{
+    margin: 0;
+}

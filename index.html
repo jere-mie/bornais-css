@@ -9,65 +9,56 @@
         <!-- <meta property="og:image" content="me.png" /> -->
         <meta property="og:type" content="website" />
         <link href="css/bornais.css" rel="stylesheet" type="text/css" />    
-        <title>Bornais.CSS Test Page</title>
-        <style>
-            .box1{
-                background-color: aliceblue;
-            }
-            .box2{
-                background-color: blanchedalmond;
-            }
-            *{
-                margin:0;
-                padding:0;
-            }
-        </style>
+        <link rel="stylesheet" href="style.css">
+        <title>Bornais.CSS</title>
     </head>
     <body>
-        <h1 class="center">Hello World!</h1>
-        <div class="container">
-            <a href="#" class="bbtn bbtn-outline-azure">Hi there</a>
-            <button href="#" class="bbtn bbtn-outline-azure">Hi there</button>
+        <div class="container" style="margin-top: 33px">
+            <h1 class="center thin" style="font-size: 4rem;">Welcome to Bornais.css!</h1>
+            <h2 class="center thin">A lightweight, simple, and powerful CSS framework based on FlexBox and CSS Grid</h2>
         </div>
-        <br><br><br>
         <div class="container">
-            <div class="frow-xs center">
-                <div class="f-xs-3 box1">this is f1</div>
-                <div class="f-xs-6 box2">this is f1</div>
-                <div class="f-xs-3 box1">this is f1</div>
-            </div>  
-        </div>
-        <br><br><br>
-        <div class="container">
-            <div class="bgrid bgrid-sm-3 center">
-                <div class="box1">hi</div>
-                <div class="box2">hi2</div>
-                <div class="box1">hi3</div>
-            </div>
-        </div>
-        <br><br><br>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6"></div>
-                <div class="col-md-6"></div>
+            <h3 class="center thin">Download <a href="https://github.com/jere-mie/bornais-css">here</a> or use the CDN below</h3>
+            
+            <input style="text-align: center;" type="text" id="cdn" readonly>
+            <br><br>    
+            <div class="frow-xs" style="justify-content: center;">
+                <button class="bbtn bbtn-azure" onclick="copy();">Copy</button>
             </div>
         </div>
         <div class="container">
-            <div class="bgrid bgrid-lg-6 bgrid-md-3 bgrid-sm-2 center">
-                <!-- <div class="w-md-2 h-md-2 box1">this is f0</div> -->
-                <div class=" box2">this is f1</div>
-                <div class=" box1">this is f2</div>
-                <div class=" box1">this is f3</div>
-                <!-- <div class="w-md-2 h-md-2 box2">this is f4</div> -->
-                <div class=" box1">this is f5</div>
-                <div class=" box1">this is f6</div>
-                <div class=" box2">this is f7</div>
-                <div class=" box1">this is f8</div>
-                <div class=" box1">this is f9</div>
-                <div class=" box2">this is f10</div>
-                <div class=" box1">this is f11</div>
-            </div>  
+            <h2 class="center">Resize this window (on Desktop) to see how you can make mobile responsive websites easily!</h2>
+            <div class="bgrid bgrid-lg-6 bgrid-md-4 bgrid-sm-3">
+                <div class="box-green w-sm-1"></div>
+                <div class="box-blue w-sm-1"></div>
+                <div class="box-yellow w-sm-1"></div>
+                <div class="box-green w-sm-1"></div>
+                <div class="box-blue w-sm-1"></div>
+                <div class="box-yellow w-sm-1"></div>
+                <div class="box-blue w-sm-1"></div>
+                <div class="box-yellow w-sm-1"></div>
+                <div class="box-green w-sm-1"></div>
+                <div class="box-blue w-sm-1"></div>
+                <div class="box-yellow w-sm-1"></div>
+                <div class="box-green w-sm-1"></div>
+            </div>    
         </div>
+        <div class="footer">
+            <p class="thin">Created by Jeremie Bornais 2020</p>
+        </div>
+        <script>
+            let mytext = document.getElementById("cdn");
+            mytext.value = '<link rel="stylesheet" href="https://css.bornais.ca/css/bornais.css"></link>';
 
+            function copy() {
+                var copyText = document.getElementById("cdn");
+
+                copyText.select();
+                copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+                document.execCommand("copy");
+                alert("CDN Copied");
+            }
+        </script>
     </body>
 </html>
